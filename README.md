@@ -1,4 +1,4 @@
-# Beretti Audio - Mixing and Mastering Studio
+# Mixing and Mastering Studio
 
 A professional website for a audio mastering studio located in Berlin.
 
