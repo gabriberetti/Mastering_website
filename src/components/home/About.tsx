@@ -8,13 +8,13 @@ export default function About() {
       <section id="about" className="py-32">
         <div className="container mx-auto px-6 md:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
-            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-full h-[600px]">
               <Image
-                src="/images/studio-about.jpg"
-                alt="Studio workspace"
+                src="/images/AVANT.OCS (2 of 1).jpg"
+                alt="Professional mastering engineer at work"
                 fill
                 priority
-                className="object-cover"
+                className="object-contain bg-transparent"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
