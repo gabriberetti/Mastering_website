@@ -5,6 +5,13 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     formats: ['image/webp'],
   },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(mov|mp4)$/i,
+      type: 'asset/resource'
+    })
+    return config
+  }
 }
 
 module.exports = nextConfig 

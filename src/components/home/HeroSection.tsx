@@ -2,20 +2,21 @@ import React from 'react'
 
 export default function HeroSection() {
   return (
-    <section className="h-screen flex items-center relative">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 w-full h-full z-0"
-        style={{
-          backgroundImage: "url('/images/yassine-khalfalli--ttmrVJlZrU-unsplash.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
+    <section className="h-screen flex items-center relative overflow-hidden bg-gray-900">
+      {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black/70"></div>
-      </div>
+        <source src="/images/video back 3.mov" type="video/mp4" />
+      </video>
+      
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/70 z-[1]"></div>
       
       {/* Content */}
       <div className="container relative z-10">

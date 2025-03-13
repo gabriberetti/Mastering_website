@@ -1,6 +1,8 @@
-# Beretti Audio - Professional Mixing and Mastering Studio
+# Visit Website https://beretti-audio.netlify.app/
 
-A professional website for Beretti Audio, a high-end audio mastering studio located in Berlin.
+# Mixing and Mastering Studio
+
+A professional website for a audio mastering studio located in Berlin.
 
 ## Services
 
@@ -23,10 +25,8 @@ A professional website for Beretti Audio, a high-end audio mastering studio loca
 - Responsive design
 - Modern minimalist UI
 - Service descriptions
-- Clean, minimalist aesthetic
 
-## Contact
 
-For inquiries about audio mastering services:
-- Email: info@berettiaudio.com
-- Location: Berlin
+Gabriele Beretti 2024
+
+
