@@ -12,7 +12,7 @@ export default function HeroSection() {
         preload="auto"
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/images/video back 3.mov" type="video/mp4" />
+        <source src="/images/video-background.mov" type="video/mp4" />
       </video>
       
       {/* Dark overlay */}
