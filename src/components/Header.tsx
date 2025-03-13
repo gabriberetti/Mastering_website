@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-[64px]">
           <Link 
             href="/" 
-            className="text-xl tracking-wide px-6 py-3 min-h-[44px] min-w-[44px] flex items-center text-white nav-link"
+            className="text-xl tracking-wide px-6 py-3 min-h-[44px] min-w-[44px] hidden md:flex items-center text-white nav-link"
           >
             Beretti Audio 
           </Link>
