@@ -5,10 +5,10 @@ import Image from 'next/image'
 export default function About() {
   return (
     <>
-      <section id="about" className="py-32">
+      <section id="about" className="py-8 md:py-32">
         <div className="container mx-auto px-6 md:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
-            <div className="relative w-full h-[600px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-24 items-center">
+            <div className="relative w-full h-[400px] md:h-[600px]">
               <Image
                 src="/images/AVANT.OCS (2 of 1).jpg"
                 alt="Professional mastering engineer at work"
@@ -18,9 +18,9 @@ export default function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="max-w-xl space-y-8">
+            <div className="max-w-xl space-y-6 md:space-y-8">
               <h2 className="text-4xl md:text-5xl font-light tracking-tight text-white">About The Engineer</h2>
-              <div className="space-y-6">
+              <div className="space-y-4 md:space-y-6">
                 <p className="text-gray-300 leading-relaxed text-lg">
                   Gabriele Beretti is a Berlin-based mastering engineer specializing in electronic music, with a focus on Techno, House, Electronica, and Ambient. His love for music production led him to found{' '}
                   <a 

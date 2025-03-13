@@ -8,11 +8,12 @@ export default function Header() {
         <div className="flex justify-between items-center h-[64px]">
           <Link 
             href="/" 
-            className="text-xl tracking-wide px-6 py-3 min-h-[44px] min-w-[44px] hidden md:flex items-center text-white nav-link"
+            className="text-base md:text-xl tracking-wide px-6 py-3 min-h-[44px] min-w-[44px] flex flex-col md:flex-row items-start md:items-center text-white nav-link"
           >
-            Beretti Audio 
+            <span className="block md:inline">Beretti</span>
+            <span className="block md:inline md:ml-1">Audio</span>
           </Link>
-          <div className="flex gap-2">
+          <div className="flex gap-2 ml-auto">
             {[
               ['HOME', '/'],
               ['SERVICES', '#services'],

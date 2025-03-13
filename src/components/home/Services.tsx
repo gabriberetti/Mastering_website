@@ -40,10 +40,10 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-32">
+    <section id="services" className="py-8 md:py-32">
       <div className="container mx-auto px-6 md:px-8">
-        <h6 className="text-sm uppercase tracking-wider mb-12 text-gray-300">Our Services</h6>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <h6 className="text-sm uppercase tracking-wider mb-8 md:mb-12 text-gray-300">Our Services</h6>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {services.map((service, index) => (
             <SpotlightCard 
               key={index} 
@@ -51,12 +51,12 @@ export default function Services() {
               className="flex flex-col h-full"
             >
               <div className="flex flex-col h-full">
-                <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-6 text-white">{service.title}</h2>
-                <p className="text-gray-300 mb-8 leading-relaxed text-lg flex-grow">
+                <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-4 md:mb-6 text-white">{service.title}</h2>
+                <p className="text-gray-300 mb-6 md:mb-8 leading-relaxed text-lg flex-grow">
                   {service.description}
                 </p>
                 {service.details.length > 0 && (
-                  <ul className="list-disc pl-8 space-y-4 text-gray-300 mb-8 text-lg">
+                  <ul className="list-disc pl-8 space-y-3 md:space-y-4 text-gray-300 mb-6 md:mb-8 text-lg">
                     {service.details.map((detail, idx) => (
                       <li key={idx}>{detail}</li>
                     ))}
